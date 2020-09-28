@@ -1,15 +1,10 @@
-# Laishulu Macism
+# Laishulu fonts
 
 ## How do I install these formulae?
-`brew install laishulu/fonts/<formula>`
 
-Or `brew tap laishulu/fonts` and then `brew install <formula>`.
+For install `font-sarasa-nerd`:
 
-Or install via URL (which will not receive updates):
-
+```sh
+brew tap laishulu/cask-fonts
+brew cask install font-sarasa-nerd
 ```
-brew install https://raw.githubusercontent.com/laishulu/homebrew-fonts/master/Formula/<formula>.rb
-```
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
