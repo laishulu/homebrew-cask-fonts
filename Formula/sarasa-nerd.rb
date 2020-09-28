@@ -8,8 +8,8 @@ class SarasaNerd < Formula
   depends_on "fontconfig"
 
   def install
-    system "cp -rvf *.ttf ~/Library/Fonts"
-    system "fc-cache -f -v ~/Library/Fonts"
+    system "cp -vf *.ttf ~/Library/Fonts"
+    system "fc-cache -vf ~/Library/Fonts"
   end
 
   test do
