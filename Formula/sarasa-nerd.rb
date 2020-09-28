@@ -8,10 +8,8 @@ class SarasaNerd < Formula
   depends_on "fontconfig"
 
   def install
-    system "swiftc", "macism.swift"
-    bin.install "macism"
-    cp -rvf "*.ttf" ~/Library/Fonts
-    fc-cache -f -v ~/Library/Fonts
+    system "cp" "-rvf *.ttf ~/Library/Fonts"
+    system "fc-cache" "-f -v ~/Library/Fonts"
   end
 
   test do
