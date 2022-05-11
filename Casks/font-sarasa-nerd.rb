@@ -1,6 +1,6 @@
 cask "font-sarasa-nerd" do
   version "2.1.0"
-  sha256 "ff46ce5070440e85b23a0326491bc902450f77d3b9f0c15e2e2ebf9feb607e91"
+  sha256 "6a30117f861dc5ecac9c9684736385be95afdbad229eca20e997b9a577941c79"
 
   url "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/archive/v#{version}.zip"
   name "Sarasa Mono SC Nerd font"
