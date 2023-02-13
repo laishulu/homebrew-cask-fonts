@@ -1,6 +1,6 @@
 cask "font-sarasa-nerd" do
-  version "2.1.0"
-  sha256 "6a30117f861dc5ecac9c9684736385be95afdbad229eca20e997b9a577941c79"
+  version "3.0.0"
+  sha256 "6d5fbc177cb2c9b14859b39a89a004cffc18d2021c72c3c440290c6b1775fdbf"
 
   url "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/archive/v#{version}.zip"
   name "Sarasa Mono SC Nerd font"
@@ -16,4 +16,14 @@ cask "font-sarasa-nerd" do
   font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-nerd-regular.ttf"
   font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-nerd-semibold.ttf"
   font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-nerd-semibolditalic.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-bold.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-bolditalic.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-extralight.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-extralightitalic.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-italic.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-light.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-lightitalic.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-regular.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-semibold.ttf"
+  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-wide-nerd-semibolditalic.ttf"
 end
