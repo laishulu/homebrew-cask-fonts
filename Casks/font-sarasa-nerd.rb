@@ -6,6 +6,6 @@ cask "font-sarasa-nerd" do
   name "Sarasa Mono SC Nerd font"
   homepage "https://github.com/laishulu/Sarasa-Mono-SC-Nerd"
 
-  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-nerd/sarasa-mono-sc-nerd.ttc"
-  font "Sarasa-Mono-SC-Nerd-#{version}/sarasa-mono-sc-nerd/sarasa-mono-sc-wide-nerd.ttc"
+  font "sarasa-mono-sc-nerd.ttc"
+  font "sarasa-mono-sc-wide-nerd.ttc"
 end
