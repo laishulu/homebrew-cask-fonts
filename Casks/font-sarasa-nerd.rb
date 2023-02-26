@@ -1,11 +1,10 @@
 cask "font-sarasa-nerd" do
-  version "4.0.0"
-  sha256 "f44b8e945583056c4ce3786672dcd839628a131486f55624ae828e8ed4692963"
+  version "1.0.0"
+  sha256 "a7649ddef20dc11dcaf80792c4e38bb9e9015d77310df66080078a304ea9c215"
 
-  url "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/releases/download/v#{version}/sarasa-mono-sc-nerd.zip"
-  name "Sarasa Mono SC Nerd font"
-  homepage "https://github.com/laishulu/Sarasa-Mono-SC-Nerd"
+  url "https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases/download/v#{version}/sarasa-term-sc-nerd.tar.gz"
+  name "Sarasa Term SC Nerd font"
+  homepage "https://github.com/laishulu/Sarasa-Term-SC-Nerd"
 
-  font "sarasa-mono-sc-nerd.ttc"
-  font "sarasa-mono-sc-wide-nerd.ttc"
+  font "sarasa-Term-sc-nerd.ttc"
 end
