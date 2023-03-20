@@ -6,5 +6,5 @@ cask "font-sarasa-nerd" do
   name "Sarasa Term SC Nerd font"
   homepage "https://github.com/laishulu/Sarasa-Term-SC-Nerd"
 
-  font "sarasa-Term-sc-nerd.ttc"
+  font "sarasa-term-sc-nerd.ttc"
 end
